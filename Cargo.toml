@@ -27,7 +27,7 @@ schannel = "0.1.17"
 
 [target.'cfg(target_os = "switch")'.dependencies]
 log = "0.4.5"
-nnsdk = "0.6
+nnsdk = "0.6"
 libc-nnsdk = "0.5"
 
 [target.'cfg(not(any(target_os = "windows", target_os = "macos", target_os = "switch", target_os = "ios")))'.dependencies]
